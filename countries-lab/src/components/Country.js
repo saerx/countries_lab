@@ -1,9 +1,11 @@
-const Country = () => {
+const Country = ({country}) => {
 
+    if (!country) return null;
 
+    console.log(country)
     return (
         <>
-            <li>Country</li>
+            <h2>{country}</h2>
         </>
     )
 }

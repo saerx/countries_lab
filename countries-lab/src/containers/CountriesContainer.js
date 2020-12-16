@@ -1,7 +1,6 @@
 import {useEffect, useState} from "react";
 
 import CountrySelect from "../components/CountrySelect";
-import Country from "../components/Country";
 import FavsList from "../components/FavsList";
 import Population from "../components/Population";
 
@@ -27,12 +26,12 @@ function CountriesContainer() {
 
 
 
+
     return (
         <>
         <h2>Countries Info - App</h2>
         <Population countries={countries}/>
         <CountrySelect countries={countries}/>
-        <Country />
         <FavsList />
         </>
     )
