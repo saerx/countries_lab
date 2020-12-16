@@ -15,6 +15,10 @@ const CountrySelect = ({countries}) => {
         
         setSelectedCountry(filteredCountries[0]);
     };
+
+    // const addToFavs = event => {
+    //     const newFav = selectedCountry
+    // }
     
     
     // console.log(countries[0].name)
@@ -27,6 +31,9 @@ const CountrySelect = ({countries}) => {
         )}
         </select>
         <Country country={selectedCountry}/>
+        {/* <button onClick={addToFavs}>
+            Add to Favourites
+        </button> */}
         </div>
     );
 }

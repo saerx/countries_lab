@@ -4,9 +4,10 @@ const Country = ({country}) => {
 
     console.log(country)
     return (
-        <>
-            <h2>{country.population}</h2>
-        </>
+        <div className="country-info">
+            <h2>{country.name}</h2>
+            <img width="100px" height="60px" src={country.flag} alt="Country Flag"/>
+        </div>
     )
 }
 
