@@ -5,7 +5,7 @@ const Country = ({country}) => {
     console.log(country)
     return (
         <>
-            <h2>{country}</h2>
+            <h2>{country.population}</h2>
         </>
     )
 }
